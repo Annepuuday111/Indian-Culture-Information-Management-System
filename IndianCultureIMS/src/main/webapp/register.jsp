@@ -111,7 +111,7 @@
             <h1>Register</h1>
             <form action="registerServlet" method="post" onsubmit="showSuccessMessage()">
                 <div class="form-group">
-                    <label for="role">Name:</label>
+                    <label for="name">Name:</label>
                     <input type="text" id="name" name="name" placeholder="Enter your name" required>
                 </div>
                 <div class="form-group">

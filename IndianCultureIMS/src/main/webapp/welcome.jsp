@@ -36,10 +36,10 @@
                <div class="nav">
                   <ul>
                      <li><a class="menu_hover">Home</a></li>
-                     <li><a class="menu_hover" href="#slides_parent">Heritage
+                     <li><a class="menu_hover" href="#welcome_Sec">Heritage
                         Sites</a>
                      </li>
-                     <li><a class="menu_hover" href="#explore-fiji">Travel
+                     <li><a class="menu_hover" href="#explore-india">Travel
                         With us</a>
                      </li>
                      <li><a class="menu_hover" href="#gallery">Gallery</a></li>
@@ -62,7 +62,7 @@
                <p>India is a country dotted with stunning wild life diversity,
                   and rich traditions. While the Western coast greets you with
                   mouth-watering delicacies, the East part invites you to experience
-                  its greenery.
+                  its greenary.
                </p>
                <a href="https://indianculture.gov.in/">Read More</a>
             </div>
@@ -76,7 +76,7 @@
       <Section id="welcome_Sec">
          <div class="container">
             <h2>
-               <span>Where science meets the sacred! </span>
+               <span>Where Science Meets The Sacred! </span>
             </h2>
             <p>Witness the grand Architecture! How about taking your kids on
                an exploration of India's heritage this holiday season?
@@ -108,7 +108,7 @@
 				</div>
 				<div class="slide_1 slide_5">
 					<div class="slide_info">
-						<p>Chhatrapati Shivaji Terminus</p>
+						<p>Chatrapati Shivaji Terminus</p>
 					</div>
 				</div>
 				<div class="slide_1 slide_6">
@@ -125,91 +125,285 @@
 		</div>
 	</Section>
 	<section id="explore-india">
-		<center>
-			<h1>Locate Top Heritage Sites in India!</h1>
-		</center>
-		<br>
-		<br>
-		<center>
-			<h4>
+			<h1 align="center">Locate Top Heritage Sites in India!</h1>
+			<br>
+			<br>
+			<h4 align="center">
 				This map depicts the top ten historical sites in India in terms of
 				their geographical location. <br>Click on any pointer to learn
 				more about the place and to appreciate the diversity!
 			</h4>
-		</center>
 		<br>
 		<br>
-		<center>
+		<div style="width: 100%; display: flex; justify-content: center; align-items: center; height: 480px;">
 			<iframe
 				src="https://www.google.com/maps/d/u/0/embed?mid=1rWVL7-ObutJZd9PlLtzqS4kounhEzHg&ehbc=2E312F"
-				width="60%" height="480">
+				style="border: 0; width: 60%; height: 100%;"> 
 			</iframe>
-		</center>
+		</div>
 	</section>
 	<section id="gallery">
-         <div class="container">
+        <div class="container">
             <div class="row">
-               <div align="center">
-                  <button class="btn filter-button active" data-filter="all">All</button>
-                  <button class="btn filter-button" data-filter="hdpe">Foods
-                  and Culture</button>
-                  <button class="btn filter-button" data-filter="sprinkle">Heritage
-                  Sites</button>
-                  <button class="btn filter-button" data-filter="spray">Paradise</button>
-               </div>
-               <div class="filter-gal-par">
-                  <div
-                     class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                     <img src="images/fiji-surprise/f1.jpg" class="img-responsive">
-                  </div>
-                  <div
-                     class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                     <img src="images/fiji-surprise/f2.jpg" class="img-responsive">
-                  </div>
-                  <div
-                     class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                     <img src="images/fiji-surprise/f3.jpg" class="img-responsive">
-                  </div>
-                  <div
-                     class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                     <img src="images/fiji-surprise/h1.jpg" class="img-responsive">
-                  </div>
-                  <div
-                     class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                     <img src="images/fiji-surprise/h2.jpg" class="img-responsive">
-                  </div>
-                  <div
-                     class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                     <img src="images/fiji-surprise/h3.jpg" class="img-responsive">
-                  </div>
-                  <div
-                     class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                     <img src="images/fiji-surprise/p1.jpg" class="img-responsive">
-                  </div>
-                  <div
-                     class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                     <img src="images/fiji-surprise/p2.jpg" class="img-responsive">
-                  </div>
-                  <div
-                     class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                     <img src="images/fiji-surprise/p3.jpg" class="img-responsive">
-                  </div>
-                  <div
-                     class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                     <img src="images/fiji-surprise/g1.jpg" class="img-responsive">
-                  </div>
-                  <div
-                     class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                     <img src="images/fiji-surprise/g2.jpg" class="img-responsive">
-                  </div>
-                  <div
-                     class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                     <img src="images/fiji-surprise/g3.jpg" class="img-responsive">
-                  </div>
-               </div>
+                <div align="center">
+                    <button class="btn filter-button active" data-filter="all">All</button>
+                    <button class="btn filter-button" data-filter="sprinkle">Famous Temples</button>
+                    <button class="btn filter-button" data-filter="spray">Famous Places</button>
+                    <button class="btn filter-button" data-filter="hdpe">Famous Food</button>
+                </div>
+                <div class="filter-gal-par">
+                	<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp1.jpeg" class="img-responsive">
+                    </div>  
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp2.webp" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp3.jpeg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp4.jpeg.crdownload" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp5.jpeg" class="img-responsive">
+                    </div>  
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp6.jpeg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp7.jpeg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp8.jpeg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp9.jpg" class="img-responsive">
+                    </div>  
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp10.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp11.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp12.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp13.jpg" class="img-responsive">
+                    </div>  
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp14.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp15.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray show-more-item">
+                        <img src="images/fiji-surprise/fp16.jpg" class="img-responsive">
+                    </div>
+
+
+                    
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft1.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft2.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft3.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft4.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft5.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft6.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft7.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft8.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft9.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft10.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft11.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft12.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft13.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft14.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft15.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft16.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft17.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft18.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft19.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft20.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft21.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft22.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft23.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft24.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft25.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft26.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft27.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft28.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft29.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft30.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft31.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft32.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft33.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft34.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="images/fiji-surprise/ft35.jpg" class="img-responsive">
+                    </div>
+                    
+                    
+                    
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf1.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf2.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf3.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf4.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf5.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf6.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf7.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf8.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf9.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf10.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf11.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf12.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf13.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf14.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf15.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf16.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf17.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf18.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf19.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf20.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf21.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf22.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf23.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf24.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf25.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf26.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf27.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf28.jpg" class="img-responsive">
+                    </div>
+                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="images/fiji-surprise/swf29.jpg" class="img-responsive">
+                    </div>
+
+                </div>
             </div>
-         </div>
-      </section>
+        </div>
+    </section>
+
       <section id="fiji-holyday">
          <div class="container">
          	<br>
@@ -406,5 +600,45 @@
       <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
       <script type="text/javascript" src="js/owl.carousel.min.js"></script>
       <script type="text/javascript" src="js/extrenaljq.js"></script>
-   </body>
+      <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        filterSelection("all");
+
+        var filterButtons = document.querySelectorAll('.filter-button');
+        filterButtons.forEach(function(button) {
+            button.addEventListener('click', function() {
+                filterButtons.forEach(function(btn) {
+                    btn.classList.remove('active');
+                });
+                this.classList.add('active');
+                filterSelection(this.getAttribute('data-filter'));
+            });
+        });
+
+        document.getElementById('show-more-btn').addEventListener('click', function () {
+            const hiddenItems = document.querySelectorAll('.show-more');
+            hiddenItems.forEach(item => item.style.display = 'block');
+            this.style.display = 'none'; // Hide the "Show More" button after clicking
+        });
+    });
+
+    function filterSelection(filter) {
+        var items = document.querySelectorAll('.gallery_product');
+        items.forEach(function(item) {
+            item.style.display = "none"; // Hide all items initially
+            if (filter === "all") {
+                // Show only the first 9 items for "all" filter
+                var showMoreItems = document.querySelectorAll('.show-more-item');
+                showMoreItems.forEach(function(showItem, index) {
+                    if (index < 9) {
+                        showItem.style.display = "block";
+                    }
+                });
+            } else if (item.classList.contains(filter)) {
+                item.style.display = "block";
+            }
+        });
+    }
+</script>
+</body>
 </html>
